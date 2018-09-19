@@ -1,4 +1,4 @@
-// File name: SimpleArray.h
+// File name: ScopedArray.h
 // Author: Christopher Glenn II
 // VUnetid: glennca1
 // Email: christopher.a.glenn@vanderbilt.edu
