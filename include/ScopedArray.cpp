@@ -57,7 +57,7 @@ template <typename T> const T& ScopedArray<T>::operator[](size_t i) const
  */
 template <typename T> T& ScopedArray<T>::operator[](size_t i)
 {
-    return mArray[i];
+    return const_cast<T&>(const_cast<const ScopedArray<T>&>(*this)[i]);
 }
 
 /**
